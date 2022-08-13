@@ -1,0 +1,161 @@
+.regfull{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    z-index: 150;
+    margin-top: -50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.profilepic{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    object-fit: fill;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.defaultprofile{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(194, 130, 255);
+    color: white;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.regbox{
+    height: 420px;
+    width: 350px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.556);
+}
+@media (max-width:576px) {
+    .regbox{
+        width: 350px;
+        height: 420px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+}
+@media (min-width:577px) and (max-width:992px) {
+    .regbox{
+        transform: scale(1.5);
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+    
+}
+.logbox{
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.556);
+
+}
+@media (max-width:576px) {
+    .logbox{
+        width: 350px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+}
+@media (min-width:577px) and (max-width:992px) {
+    .logbox{
+        transform: scale(1.5);
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+}
+.reglogo{
+    width: 80%;
+    margin-top:50px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    color: blueviolet;
+}
+.reginput{
+    width: 80%;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid blueviolet;
+    font-weight: 600;
+    
+}
+
+.regsubmit{
+    width: 30%;
+    border: none;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    padding: 7px 10px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+
+}
+
+.success{
+    color: green;
+    font-size: small;
+}
+.error{
+    color: red;
+    font-size: small;
+}
+.regcancel{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: large;
+}
