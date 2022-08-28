@@ -15,9 +15,9 @@ const Userprofile = ({showuserprofile,setShowuserfrofile,currentuser,setCurrentU
       await axios.delete(`https://pinplacewithsuvro.herokuapp.com/api/users/deleteacc/${currentuserId}`);
       await axios.delete(`https://pinplacewithsuvro.herokuapp.com/api/pins/deletepins/${currentuser}`);
       handleLogout();
-      localStorage.removeItem("Id");
-      localStorage.removeItem("pic");
-      localStorage.removeItem("email");
+      localStorage.removeItem("Id")
+      localStorage.removeItem("pic")
+      localStorage.removeItem("email")
       setDelload(false)
   }
  
