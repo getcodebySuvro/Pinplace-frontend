@@ -12,8 +12,8 @@ const Userprofile = ({showuserprofile,setShowuserfrofile,currentuser,setCurrentU
   const handleAccDelt = async ()=>{
       
     setDelload(true);
-      await axios.delete(`https://pinplacewithsuvro.herokuapp.com/api/users/deleteacc/${currentuserId}`);
-      await axios.delete(`https://pinplacewithsuvro.herokuapp.com/api/pins/deletepins/${currentuser}`);
+      await axios.delete(`https://rose-sleepy-goose.cyclic.app/api/users/deleteacc/${currentuserId}`);
+      await axios.delete(`https://rose-sleepy-goose.cyclic.app/api/pins/deletepins/${currentuser}`);
       handleLogout();
       localStorage.removeItem("Id");
       localStorage.removeItem("pic");

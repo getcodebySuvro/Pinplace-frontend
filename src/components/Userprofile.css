@@ -18,14 +18,13 @@
     height: 450px;
     width: 350px;
     padding: 10px;
-    border: 5px solid blueviolet;
     border-radius: 30px;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.313);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.313);
     
 }
 .userpic{
@@ -50,7 +49,7 @@
 }
 .userdata{
     margin-top: -10px;
-    color: blueviolet;
+    color: rgb(84, 0, 163);
 }
 .useremail{
     margin-top: -10px;
@@ -64,7 +63,7 @@
     text-align: center;
     flex-direction: row;
     width: 170px;
-    background-color: blueviolet;
+    background-color: rgb(84, 0, 163);
     color: white;
     border: none;
     outline: none;

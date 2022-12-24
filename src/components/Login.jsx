@@ -20,7 +20,7 @@ const Register = ({showlogin,setShowlogin,setCurrentuserId,setCurrentUser}) => {
         password:passwordRef.current.value,
       }
       try{
-        const res = await axios.post("https://pinplacewithsuvro.herokuapp.com/api/users/login",newUser);
+        const res = await axios.post("https://rose-sleepy-goose.cyclic.app/api/users/login",newUser);
         localStorage.setItem("username",res.data.username);
         localStorage.setItem("Id",res.data._id)
         localStorage.setItem("pic",res.data.pic)

@@ -98,7 +98,7 @@ const handleSubmit = async (e)=>{
      }
   
      try{
-      const res =  await axios.post("https://pinplacewithsuvro.herokuapp.com/api/pins",newPin);
+      const res =  await axios.post("https://rose-sleepy-goose.cyclic.app/api/pins",newPin);
       setPins([...pins,res.data]);
       setNewplace(null);
       setNormalload(false);
@@ -122,7 +122,7 @@ const submitEditeddata = async (e,id,lat,long)=>{
     long:long
   }
   try{
-   const res = await axios.put("https://pinplacewithsuvro.herokuapp.com/api/pins",ediedData);
+   const res = await axios.put("https://rose-sleepy-goose.cyclic.app/api/pins",ediedData);
    setPins([...pins,res.data])
    setNewplace(null)
    setEditload(false)
@@ -134,14 +134,14 @@ const submitEditeddata = async (e,id,lat,long)=>{
 }
 
 const deleteFood = async (id)=>{
-  await axios.delete(`https://pinplacewithsuvro.herokuapp.com/api/pins/${id}`);
+  await axios.delete(`https://rose-sleepy-goose.cyclic.app/api/pins/${id}`);
   setDeletedId(id)
 }
 
  useEffect(() => {
     const getPins = async () => {
       try {
-        const allPins = await axios.get("https://pinplacewithsuvro.herokuapp.com/api/pins");
+        const allPins = await axios.get("https://rose-sleepy-goose.cyclic.app/api/pins");
         setPins(allPins.data);
       } catch (err) {
         console.log(err);

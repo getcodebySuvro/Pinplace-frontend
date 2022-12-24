@@ -24,7 +24,7 @@ const Register = ({showregister,setShowregister}) => {
       imageurl:media.content
     }
     try{
-      const res = await axios.post("https://pinplacewithsuvro.herokuapp.com/api/users/register",newUser);
+      const res = await axios.post("https://rose-sleepy-goose.cyclic.app/api/users/register",newUser);
       if(res.data === "UserExists"){
         setUserexists(true)
       }else{

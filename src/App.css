@@ -72,7 +72,7 @@ body{
     margin-top: 15px;
     margin-right: 15px;
     margin-top: 5px;
-    background-color: blueviolet;
+    background-color: rgb(84, 0, 163);
     color: white;
     font-weight: 600;
     z-index: 100;
@@ -95,7 +95,7 @@ body{
 .label{
     padding-bottom: 3px;
     font-size: medium;
-    border-bottom: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(84, 0, 163);
     
 }
 .placename{
@@ -133,7 +133,7 @@ body{
 }
 
 .username{
-    color: blueviolet;
+    color: rgb(84, 0, 163);
 }
 
 .form{
@@ -145,7 +145,7 @@ body{
 .formlabel{
     padding-bottom: 3px;
     font-size: medium;
-    border-bottom: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(84, 0, 163);
 }
 .submitbutton{
     padding: 3px 0px;
@@ -154,13 +154,13 @@ body{
     font-weight: 600;
     border: none;
     border-radius: 3px;
-    background-color: blueviolet;
+    background-color: rgb(84, 0, 163);
     color: white;
     transition: 0.3s;
 }
 
 .editsubmitbutton{
-    background-color: blueviolet;
+    background-color: rgb(84, 0, 163);
     width: 100%;
     color: white;
     font-weight: 600;
@@ -181,10 +181,10 @@ body{
     outline: none;
     font-size: 15px;
     background-color: transparent;
-    color: blueviolet;
+    color: rgb(84, 0, 163);
 }
 .edit-delete:hover{
-    background-color: blueviolet;
+    background-color: rgb(84, 0, 163);
     color: white;
     border: none;
     outline: none;
